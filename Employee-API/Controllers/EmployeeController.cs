@@ -44,7 +44,7 @@ namespace Employee_core.Controllers
         }
 
         [HttpPost("addemployee")]
-        public async Task<ActionResult<Employee>> AddEmployee(Employee employee)
+        public async Task<ActionResult<Employee>> AddEmployees(Employee employee)
         {
             try
             {
